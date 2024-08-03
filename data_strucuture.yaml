@@ -1,0 +1,8 @@
+Receipt: {Heading: , Body: , Foot: }
+  Heading: {Company: , Customer: }
+    Company: {Name: "", Address: "", ABN: "", Tele: ""}
+    Customer: {Name: "", Address: "", Tele: ""}
+  Body: {Products:, GST:, TotalWithTax:, Total:}
+    Products: [Items]
+      Items: {Name: "", Quantity: "", UnitPrice: "", TotalPrice: "", Other: ""}
+  Foot: {CardNumber: }
